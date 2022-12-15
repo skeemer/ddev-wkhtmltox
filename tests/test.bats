@@ -31,8 +31,8 @@ teardown() {
 @test "install from release" {
   set -eu -o pipefail
   cd ${TESTDIR} || ( printf "unable to cd to ${TESTDIR}\n" && exit 1 )
-  echo "# ddev get drud/ddev-ddev-wkhtmltox with project ${PROJNAME} in ${TESTDIR} ($(pwd))" >&3
-  ddev get drud/ddev-ddev-wkhtmltox
+  echo "# ddev get skeemer/ddev-wkhtmltox with project ${PROJNAME} in ${TESTDIR} ($(pwd))" >&3
+  ddev get skeemer/ddev-wkhtmltox
   ddev restart >/dev/null
 
   ddev exec "wkhtmltopdf --version" | grep "wkhtmltopdf 0.12.5 (with patched qt)"
