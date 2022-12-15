@@ -1,0 +1,7 @@
+#ddev-generated
+# Remove the line above if you don't want this file to be overwritten when you run
+# ddev get skeemer/wkhtmltox
+# Download binary from vendor
+RUN wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.stretch_amd64.deb
+# Install patched binary
+RUN sudo dpkg -i wkhtmltox_0.12.5-1.stretch_amd64.deb
