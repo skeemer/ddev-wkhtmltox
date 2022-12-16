@@ -25,7 +25,7 @@ teardown() {
   ddev get ${DIR}
   ddev restart
 
-  ddev exec "wkhtmltopdf --version" | grep "wkhtmltopdf 0.12.5 (with patched qt)"
+  ddev exec "wkhtmltopdf --version" | grep "wkhtmltopdf 0.12.6.1 (with patched qt)"
 }
 
 @test "install from release" {
@@ -35,5 +35,5 @@ teardown() {
   ddev get skeemer/ddev-wkhtmltox
   ddev restart >/dev/null
 
-  ddev exec "wkhtmltopdf --version" | grep "wkhtmltopdf 0.12.5 (with patched qt)"
+  ddev exec "wkhtmltopdf --version" | grep "wkhtmltopdf 0.12.6.1 (with patched qt)"
 }

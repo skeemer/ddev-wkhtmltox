@@ -3,7 +3,7 @@
 # ddev get skeemer/wkhtmltox
 # Download binary from vendor
 RUN arch=$(arch | sed s/aarch64/arm64/ | sed s/x86_64/amd64/) && \
-    wget -O /tmp/wkhtmltox.deb "https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.stretch_${arch}.deb"
+    wget -O /tmp/wkhtmltox.deb "https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.bullseye_${arch}.deb"
 # Install patched binary
 RUN dpkg -i /tmp/wkhtmltox.deb
 # Cleanup
