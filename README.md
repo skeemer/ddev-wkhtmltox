@@ -2,6 +2,8 @@
 
 # DDEV-WKHTMLTOX
 
+*DEPRECATED*: The wkhtmltopdf project has been set to read-only as of Jan 2023 and the releases project, for distro packages, in Aug 2023. This addon won't work once DDEV switches to Debian Trixie as there probably won't be a build available.
+
 ## Intro
 
 This installs wkhtmltopdf and wkhtmltoimage, with patched Qt, into the web service.
