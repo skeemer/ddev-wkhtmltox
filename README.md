@@ -12,4 +12,14 @@ Using binaries compiled with patched Qt avoids a lot of fetch errors among other
 
 ## Getting started
 
-Install the add-on with ddev get skeemer/ddev-wkhtmltox
+For DDEV v1.23.5 or above run
+
+```sh
+ddev add-on get skeemer/ddev-wkhtmltox
+```
+
+For earlier versions of DDEV run
+
+```sh
+ddev get skeemer/ddev-wkhtmltox
+```
