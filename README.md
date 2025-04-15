@@ -1,4 +1,6 @@
-[![tests](https://github.com/skeemer/ddev-wkhtmltox/actions/workflows/tests.yml/badge.svg)](https://github.com/skeemer/ddev-wkhtmltox/actions/workflows/tests.yml) ![project is maintained](https://img.shields.io/maintenance/yes/2023.svg)
+[![tests](https://github.com/skeemer/ddev-wkhtmltox/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/skeemer/ddev-wkhtmltox/actions/workflows/tests.yml?query=branch%3Amain)
+[![last commit](https://img.shields.io/github/last-commit/skeemer/ddev-wkhtmltox)](https://github.com/skeemer/ddev-wkhtmltox/commits)
+[![release](https://img.shields.io/github/v/release/skeemer/ddev-wkhtmltox)](https://github.com/skeemer/ddev-wkhtmltox/releases/latest)
 
 # DDEV-WKHTMLTOX
 
