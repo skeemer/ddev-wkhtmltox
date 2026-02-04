@@ -3,7 +3,6 @@ name: ddev-wkhtmltox
 pre_install_actions:
 
 project_files:
-- config.wkhtmltox.yaml
 - web-build/Dockerfile.ddev-wkhtmltox
 
 global_files:
